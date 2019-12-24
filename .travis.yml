@@ -11,7 +11,8 @@ python:
     - "pypy3"
 matrix:
     include:
-        -python: pypy3
+        - python: pypy3
+          env: 
 
 install:
     - "pip install ."
