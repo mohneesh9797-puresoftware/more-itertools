@@ -11,7 +11,8 @@ python:
     - "pypy3"
 matrix:
     include:
-        - python: pypy3
+        - arch: amd64
+          python: pypy3
           env: 
 
 install:
